@@ -1,3 +1,69 @@
 {
-  "$schema": "https://fable.deno.dev/schema.json"
+  "$schema": "https://fable.deno.dev/schema.json",
+  "id": "example",
+  "title": "Example",
+  "description": "An example pack to demonstrate how to create a manifest",
+  "author": "Fable Community",
+  "image": "https://example.com/image.png",
+  "url": "https://github.com/fable-community/example",
+  "media": {
+    "new": [{
+      "id": "1",
+      "title": {
+        "english": "Media"
+      },
+      "description": "An exemplary media",
+      "type": "ANIME",
+      "format": "TV",
+      "trailer": {
+        "site": "youtube",
+        "id": "dQw4w9WgXcQ"
+      },
+      "externalLinks": [{
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@example"
+      }],
+      "images": [{
+        "url": "https://example.org/media.jpg",
+        "artist": {
+          "username": "ME",
+          "url": "https://example.org/artist/homepage"
+        }
+      }],
+      "characters": [{
+        "characterId": "2",
+        "role": "MAIN"
+      }]
+    }]
+  },
+  "characters": {
+    "new": [{
+      "id": "2",
+      "age": "less than 420 years",
+      "gender": "Tree probably.. idk..",
+      "name": {
+        "english": "Dave",
+        "native": "Still Dave",
+        "romaji": "Also Dave",
+        "alternative": ["Must be Dave", "Dave the Great", "Dave the Third"]
+      },
+      "description": "The main character of the exemplary media.\n\nIt's a tree called Dave.",
+      "externalLinks": [{
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@davethegreattreegamingchannel"
+      }],
+      "popularity": 10000000000000000,
+      "media": [{
+        "mediaId": "1",
+        "role": "MAIN"
+      }],
+      "images": [{
+        "url": "https://dave.dave/dave.png",
+        "artist": {
+          "username": "Dave",
+          "url": "https://example.com/dave/dave/dave"
+        }
+      }]
+    }]
+  }
 }
