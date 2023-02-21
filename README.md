@@ -69,7 +69,9 @@ To add a media yo your pack it needs to be defined under `media.new`, like this:
 
 Check `manifest.json` file in this repo for all the details about the data that a media can have like `title`, `images`, `trailer`, `externalLinks`.
 
-You media conflicts with some other pack's media but you don't want to straight out remove the other pack? Adding the conflicted media ids under `media.conflicts` like so, will disable those specific media while leaving the pack itself and its other content functional.
+### Conflicts
+
+You media conflicts with another pack's media but you don't want to replace the other pack? Adding the conflicted media ids under `media.conflicts` like so, will disable those specific media while leaving the pack itself and its other content functional.
 
 ```json
 "media": {
@@ -99,7 +101,9 @@ To add characters yo your pack it needs to be defined under `characters.new`, li
 
 Check `manifest.json` file in this repo for all the details about the data that a character can have like `name`, `images`, `description`, `externalLinks`.
 
-You characters conflicts with some other pack's characters but you don't want to straight out remove the other pack? Adding the conflicted character ids under `characters.conflicts` like so, will disable those specific characters while leaving the pack itself and its other content functional.
+### Conflicts
+
+You characters conflict with another pack's characters but you don't want to replace the other pack? Adding the conflicted character ids under `characters.conflicts` like so, will disable those specific characters while leaving the pack itself and its other content functional.
 
 ```json
 "characters": {
