@@ -48,6 +48,9 @@ Other metadata includes:
 }
 ```
 
+> Want a more serious/full example? Checkout the official vtubers pack manifest:  
+> https://github.com/ker0olos/fable/blob/main/packs/vtubers/manifest.json
+
 ## Adding Media
 
 Media, can be anything. Anime, manga, game, football leauge, boy band.
@@ -113,8 +116,3 @@ You characters conflict with another pack's characters but you don't want to rep
   ],
 },
 ```
-
----
-
-> Want a more serious/full example? Checkout the official vtubers pack manifest:  
-> https://github.com/ker0olos/fable/blob/main/packs/vtubers/manifest.json
