@@ -55,7 +55,7 @@ Other metadata includes:
 
 Media, can be anything. Anime, manga, game, football leauge, boy band.
 
-To add a media yo your pack it needs to be defined under `media.new`, like this: 
+To add a media to your pack it needs to be defined under `media.new`, like this: 
 
 ```json
 "media": {
@@ -87,7 +87,7 @@ You media conflicts with another pack's media but you don't want to replace the 
 
 ## Adding Characters
 
-To add characters yo your pack it needs to be defined under `characters.new`, like this: 
+To add characters to your pack it needs to be defined under `characters.new`, like this: 
 
 ```json
 "characters": {
