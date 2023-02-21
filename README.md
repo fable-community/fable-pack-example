@@ -74,7 +74,7 @@ Check `manifest.json` file in this repo for all the details about the data that 
 
 ### Conflicts
 
-You media conflicts with another pack's media but you don't want to replace the other pack? Adding the conflicted media ids under `media.conflicts` like so, will disable those specific media while leaving the pack itself and its other content functional.
+You media conflicts with another pack's media but you don't want to replace the other pack? Adding the conflicted media ids under `media.conflicts` like so, will disable those specific media while leaving the pack itself and its other content functional. The format is like this `pack-id[:]media-id`.
 
 ```json
 "media": {
@@ -106,7 +106,7 @@ Check `manifest.json` file in this repo for all the details about the data that 
 
 ### Conflicts
 
-You characters conflict with another pack's characters but you don't want to replace the other pack? Adding the conflicted character ids under `characters.conflicts` like so, will disable those specific characters while leaving the pack itself and its other content functional.
+You characters conflict with another pack's characters but you don't want to replace the other pack? Adding the conflicted character ids under `characters.conflicts` like so, will disable those specific characters while leaving the pack itself and its other content functional. The format is like this `pack-id[:]character-id`.
 
 ```json
 "characters": {
