@@ -15,13 +15,13 @@ When using a code editor like "VS Code" and adding:
 "$schema": "https://fable.deno.dev/schema.json",
 ```
 
-You will be able to get helpful auto-completions and validation error while writing your manifest
+You will be able to get helpful auto-completions and validation error while writing your pack's manifest.
 
 ---
 
 ## Quick introduction
 
-Start by picking an id for your pack, be careful because, chaning your id after people start using your pack will break everything.
+Start by picking an id for your pack (be extra careful because chaning your id after people start using your pack will break people's obtained characters).
 
 ```json
 {
@@ -29,7 +29,7 @@ Start by picking an id for your pack, be careful because, chaning your id after 
 }
 ```
 
-You can define a `title`, which acts like a display name, when people are looking at your pack details.
+You can also define a `title` (it appears when people are looking at your pack details instead of your pack's id).
 
 ```json
 {
@@ -37,7 +37,7 @@ You can define a `title`, which acts like a display name, when people are lookin
 }
 ```
 
-Other metadata includes:
+Other metadata include:
 
 ```json
 {
@@ -53,9 +53,9 @@ Other metadata includes:
 
 ## Adding Media
 
-Media, can be anything. Anime, manga, game, football leauge, boy band.
+Media, can be anything. Anime, Manga, Video Games, Football Leauges, Boy Bands.
 
-To add a media to your pack it needs to be defined under `media.new`, like this: 
+To add a media to your pack: it needs to be defined under `media.new`, like this: 
 
 ```json
 "media": {
@@ -70,11 +70,11 @@ To add a media to your pack it needs to be defined under `media.new`, like this:
 },
 ```
 
-Check `manifest.json` file in this repo for all the details about the data that a media can have like `title`, `images`, `trailer`, `externalLinks`.
+Check the `manifest.json` file in this repo for all the details about the data that a media can hold: like `title`, `images`, `trailer`, `externalLinks`.
 
 ### Conflicts
 
-You media conflicts with another pack's media but you don't want to replace the other pack? Adding the conflicted media ids under `media.conflicts` like so, will disable those specific media while leaving the pack itself and its other content functional. The format is like this `pack-id[:]media-id`.
+Your media conflicts with another famous pack's media but you don't want to replace the other pack? Adding the conflicted media ids under `media.conflicts` like so, will disable those specific media while leaving the other pack itself and its other content functional. The format is like this `other-pack-id[:]conflicted-media-id`.
 
 ```json
 "media": {
@@ -102,11 +102,11 @@ To add characters to your pack it needs to be defined under `characters.new`, li
 },
 ```
 
-Check `manifest.json` file in this repo for all the details about the data that a character can have like `name`, `images`, `description`, `externalLinks`.
+Check the `manifest.json` file in this repo for all the details about the data that a character can hold like `name`, `images`, `description`, `externalLinks`.
 
 ### Conflicts
 
-You characters conflict with another pack's characters but you don't want to replace the other pack? Adding the conflicted character ids under `characters.conflicts` like so, will disable those specific characters while leaving the pack itself and its other content functional. The format is like this `pack-id[:]character-id`.
+Your character conflicts with another famous pack's character but you don't want to replace the other pack? Adding the conflicted character ids under `characters.conflicts` like so, will disable those specific characters while leaving the other pack itself and its other content functional. The format is like this `other-pack-id[:]conflicted-character-id`.
 
 ```json
 "characters": {
