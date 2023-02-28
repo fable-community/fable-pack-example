@@ -11,10 +11,13 @@ When using a code editor like "VS Code" and adding:
 "$schema": "https://fable.deno.dev/schema.json",
 ```
 
-You will be able to get helpful auto-completions and validation error while writing your pack's manifest.
+You will be able to get helpful auto-completions and validation errors while writing your pack's manifest.
 
-Wanna try installing this pack? just run this command in your server  
-`/packs install fable-community/example`
+You can also run `/packs validate fable-community/example` or `/packs validate fable-community/example test-branch`
+or from your terminal run `deno run -A https://raw.githubusercontent.com/ker0olos/fable/main/src/validate.ts ./manifest.json
+`
+
+Wanna try installing this pack on your server? run `/packs install fable-community/example`
 
 ---
 
