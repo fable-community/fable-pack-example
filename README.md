@@ -27,7 +27,7 @@ Start by picking an id for your pack (be extra careful because chaning your id a
 
 ```json
 {
-  "id": "example"
+  "id": "example",
 }
 ```
 
@@ -35,7 +35,7 @@ You can also define a `title` (it appears when people are looking at your pack d
 
 ```json
 {
-  "title": "Example"
+  "title": "Example",
 }
 ```
 
@@ -63,10 +63,10 @@ To add a media to your pack: it needs to be defined under `media.new`, like this
 "media": {
   "new": [
     {
-      "id": "media-1"
+      "id": "media-1",
     },
     {
-      "id": "media-2"
+      "id": "media-2",
     }
   ]
 },
@@ -83,7 +83,7 @@ Your media conflicts with another famous pack's media but you don't want to repl
   "conflicts": [
     "anilist:145478",
     "anilist:118123",
-  ],
+  ]
 },
 ```
 
@@ -95,10 +95,10 @@ To add characters to your pack it needs to be defined under `characters.new`, li
 "characters": {
   "new": [
     {
-      "id": "character-1"
+      "id": "character-1",
     },
     {
-      "id": "character-2"
+      "id": "character-2",
     }
   ]
 },
@@ -115,6 +115,6 @@ Your character conflicts with another famous pack's character but you don't want
   "conflicts": [
     "anilist:206017",
     "anilist:206013",
-  ],
+  ]
 },
 ```
