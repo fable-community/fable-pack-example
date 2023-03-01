@@ -17,7 +17,7 @@ You can also run `/packs validate fable-community/example` or `/packs validate f
 or from your terminal run `deno run -A https://raw.githubusercontent.com/ker0olos/fable/main/src/validate.ts ./manifest.json
 `
 
-Wanna try installing this pack on your server? run `/packs install fable-community/example`
+Wanna try installing this pack instead? run `/packs install fable-community/example`
 
 ---
 
