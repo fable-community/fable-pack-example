@@ -11,4 +11,4 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - run: deno run --allow-read --allow-net https://raw.githubusercontent.com/ker0olos/fable/b2d806b4918289f478b23b9af1857fb9b7a336a9/src/validate.ts ./manifest.json
+      - run: deno run --allow-read --allow-net https://raw.githubusercontent.com/ker0olos/fable/main/src/validate.ts ./manifest.json
