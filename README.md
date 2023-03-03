@@ -72,7 +72,7 @@ To add a media to your pack: it needs to be defined under `media.new`, like this
 },
 ```
 
-Check the `manifest.json` file in this repo for all the details about the data that a media can hold: like `title`, `images`, `trailer`, `externalLinks`.
+Check [media.json docs](https://github.com/fable-community/docs/blob/main/docs/media.md) for all the details about the data that a media can hold: like `title`, `images`, `trailer`, `externalLinks`.
 
 ### Conflicts
 
@@ -105,6 +105,8 @@ To add characters to your pack it needs to be defined under `characters.new`, li
 ```
 
 Check the `manifest.json` file in this repo for all the details about the data that a character can hold like `name`, `images`, `description`, `externalLinks`.
+
+Check [character.json docs](https://github.com/fable-community/docs/blob/main/docs/character.md) for all the details about the data that a character can hold: like `name`, `images`, `description`, `externalLinks`.
 
 ### Conflicts
 
