@@ -13,9 +13,12 @@ When using a code editor like "VS Code" and adding:
 
 You will be able to get helpful auto-completions and validation errors while writing your pack's manifest.
 
-You can also run `/packs validate fable-community/example` or `/packs validate fable-community/example test-branch`
-or from your terminal run `deno run -A https://raw.githubusercontent.com/ker0olos/fable/main/src/validate.ts ./manifest.json
-`
+You can also run `/packs validate fable-community/example` or  
+`/packs validate fable-community/example test-branch`
+or from your terminal run
+```sh
+deno run -A https://raw.githubusercontent.com/ker0olos/fable/main/src/validate.ts ./manifest.json
+```
 
 Wanna try installing this pack instead? run `/packs install fable-community/example`
 
@@ -23,7 +26,7 @@ Wanna try installing this pack instead? run `/packs install fable-community/exam
 
 ## Quick introduction
 
-Start by picking an id for your pack (be extra careful because chaning your id after people start using your pack will break people's obtained characters).
+Start by picking an [id](https://github.com/fable-community/docs/blob/main/docs/schema.md#id) for your pack (be extra careful because chaning your id after people start using your pack is not allowed).
 
 ```json
 {
@@ -31,7 +34,7 @@ Start by picking an id for your pack (be extra careful because chaning your id a
 }
 ```
 
-You can also define a `title` (it appears when people are looking at your pack details instead of your pack's id).
+You can also define a [id](https://github.com/fable-community/docs/blob/main/docs/schema.md#title) (it appears when people are looking at your pack details instead of your pack's id).
 
 ```json
 {
@@ -49,6 +52,8 @@ Other metadata include:
   "url": "https://github.com/fable-community/example",
 }
 ```
+
+Check the [docs](https://github.com/fable-community/docs) for more details.
 
 > Want a more serious/full example? Checkout the official vtubers pack manifest:  
 > https://github.com/ker0olos/fable/blob/main/packs/vtubers/manifest.json
