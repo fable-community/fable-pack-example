@@ -34,7 +34,7 @@ Start by picking an [id](https://github.com/fable-community/docs/blob/main/docs/
 }
 ```
 
-You can also define a [id](https://github.com/fable-community/docs/blob/main/docs/schema.md#title) (it appears when people are looking at your pack details instead of your pack's id).
+You can also define a [title](https://github.com/fable-community/docs/blob/main/docs/schema.md#title) (it appears when people are looking at your pack details instead of your pack's id).
 
 ```json
 {
