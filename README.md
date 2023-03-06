@@ -1,7 +1,7 @@
 # Example
 
 > **Warning** Support for installing packs in Fable is still being worked on.  
-> You can pre-create packs and validate them, but acually adding them to your server will have to wait for ker0olos/fable#73 to be merged.
+> You can pre-create packs and validate them, but acually adding them to your server will have to wait for ker0olos/fable#78 to be merged.
 
 ---
 
