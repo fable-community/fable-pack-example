@@ -1,10 +1,10 @@
 {
   "$schema": "https://fable.deno.dev/schema.json",
   "id": "example",
-  "title": "Example",
+  "title": "Example Pack",
   "description": "An example pack to demonstrate how to create a manifest",
   "author": "Fable Community",
-  "image": "https://example.com/image.png",
+  "image": "https://raw.githubusercontent.com/ker0olos/fable/main/assets/splash.png",
   "url": "https://github.com/fable-community/example",
   "media": {
     "new": [{
@@ -27,7 +27,7 @@
         "url": "https://example.org/media.jpg",
         "artist": {
           "username": "ME",
-          "url": "https://example.org/artist/homepage"
+          "url": "https://example.org
         }
       }],
       "characters": [{
@@ -58,7 +58,7 @@
         "role": "MAIN"
       }],
       "images": [{
-        "url": "https://dave.dave/dave.png",
+        "url": "https://i.imgur.com/pLptX9c.jpeg",
         "artist": {
           "username": "Dave",
           "url": "https://example.com/dave/dave/dave"
