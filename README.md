@@ -23,30 +23,15 @@ Wanna try installing this pack instead? run `/packs install fable-community/exam
 
 Start by picking an [id](https://github.com/fable-community/docs/blob/main/docs/schema.md#id) for your pack (be extra careful because chaning your id after people start using your pack is not allowed).
 
-```json
-{
-  "id": "example",
-}
-```
+<img width="600" src="https://user-images.githubusercontent.com/52022280/224247611-be748894-d98a-4059-a13a-e7382cb846c9.png"/>
 
 You can also define a [title](https://github.com/fable-community/docs/blob/main/docs/schema.md#title) (it appears when people are looking at your pack details instead of your pack's id).
 
-```json
-{
-  "title": "Example",
-}
-```
+<img width="600" src="https://user-images.githubusercontent.com/52022280/224247651-923e636e-9bfc-401d-a41e-b2111aa22c47.png"/>
 
 Other metadata include:
 
-```json
-{
-  "description": "An example pack to demonstrate how to create a manifest",
-  "author": "Fable Community",
-  "image": "https://example.com/image.png",
-  "url": "https://github.com/fable-community/example",
-}
-```
+<img width="600" src="https://user-images.githubusercontent.com/52022280/224247698-016b2a2b-bc02-4196-bfb2-11ea9e4a97d3.png"/>
 
 Check the [docs](https://github.com/fable-community/docs) for more details.
 
@@ -59,18 +44,7 @@ Media, can be anything. Anime, Manga, Video Games, Football Leauges, Boy Bands.
 
 To add a media to your pack: it needs to be defined under `media.new`, like this: 
 
-```json
-"media": {
-  "new": [
-    {
-      "id": "media-1",
-    },
-    {
-      "id": "media-2",
-    }
-  ]
-},
-```
+<img width="600" src="https://user-images.githubusercontent.com/52022280/224247721-4ddbc469-587f-41da-ad94-b2315fc36ed2.png"/>
 
 Check [media.json docs](https://github.com/fable-community/docs/blob/main/docs/media.md) for all the details about the data that a media can hold: like `title`, `images`, `trailer`, `externalLinks`.
 
@@ -78,31 +52,13 @@ Check [media.json docs](https://github.com/fable-community/docs/blob/main/docs/m
 
 Your media conflicts with another famous pack's media but you don't want to replace the other pack? Adding the conflicted media ids under `media.conflicts` like so, will disable those specific media while leaving the other pack itself and its other content functional. The format is like this `other-pack-id[:]conflicted-media-id`.
 
-```json
-"media": {
-  "conflicts": [
-    "anilist:145478",
-    "anilist:118123",
-  ]
-},
-```
+<img width="600" src="https://user-images.githubusercontent.com/52022280/224247747-cb4fe909-9f45-4549-b7a6-245ad3319544.png"/>
 
 ## Adding Characters
 
 To add characters to your pack it needs to be defined under `characters.new`, like this: 
 
-```json
-"characters": {
-  "new": [
-    {
-      "id": "character-1",
-    },
-    {
-      "id": "character-2",
-    }
-  ]
-},
-```
+<img width="600" src="https://user-images.githubusercontent.com/52022280/224247769-14d3aa00-ce93-487f-aa6b-060639924e6e.png"/>
 
 Check the `manifest.json` file in this repo for all the details about the data that a character can hold like `name`, `images`, `description`, `externalLinks`.
 
@@ -112,11 +68,4 @@ Check [character.json docs](https://github.com/fable-community/docs/blob/main/do
 
 Your character conflicts with another famous pack's character but you don't want to replace the other pack? Adding the conflicted character ids under `characters.conflicts` like so, will disable those specific characters while leaving the other pack itself and its other content functional. The format is like this `other-pack-id[:]conflicted-character-id`.
 
-```json
-"characters": {
-  "conflicts": [
-    "anilist:206017",
-    "anilist:206013",
-  ]
-},
-```
+<img width="600" src="https://user-images.githubusercontent.com/52022280/224247805-54785213-937e-4521-bd1a-d73323d94a24.png"/>
