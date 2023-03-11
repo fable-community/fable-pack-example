@@ -52,6 +52,8 @@ Check [media.json docs](https://github.com/fable-community/docs/blob/main/docs/m
 
 Your media conflicts with another famous pack's media but you don't want to replace the other pack? Adding the conflicted media ids under `media.conflicts` like so, will disable those specific media while leaving the other pack itself and its other content functional. The format is like this `other-pack-id[:]conflicted-media-id`.
 
+If you want to add a conflict from another pack use `/media [title] debug=True` with the debug flag as true Fable will print the full media id.
+
 <img width="600" src="https://user-images.githubusercontent.com/52022280/224247747-cb4fe909-9f45-4549-b7a6-245ad3319544.png"/>
 
 ## Adding Characters
@@ -67,5 +69,7 @@ Check [character.json docs](https://github.com/fable-community/docs/blob/main/do
 ### Conflicts
 
 Your character conflicts with another famous pack's character but you don't want to replace the other pack? Adding the conflicted character ids under `characters.conflicts` like so, will disable those specific characters while leaving the other pack itself and its other content functional. The format is like this `other-pack-id[:]conflicted-character-id`.
+
+If you want to add a conflict from another pack use `/character [name] debug=True` with the debug flag as true Fable will print the full character id.
 
 <img width="600" src="https://user-images.githubusercontent.com/52022280/224247805-54785213-937e-4521-bd1a-d73323d94a24.png"/>
