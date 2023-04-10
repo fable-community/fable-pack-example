@@ -73,3 +73,19 @@ Your character conflicts with another famous pack's character but you don't want
 If you want to add a conflict from another pack use `/character [name] debug=True` with the debug flag as true Fable will print the full character id.
 
 <img width="600" src="https://user-images.githubusercontent.com/52022280/224247805-54785213-937e-4521-bd1a-d73323d94a24.png"/>
+
+## FAQ
+
+**About character ratings**
+
+They are based on the `popularity` field, poplaurity is the numbers of followers for shows and video games you can base it on twitter followers or download counts, for characters like vtubers it can be based on twitch or youtube follower, you only need to define one poplaurity, character poplaurity override media poplaurity.
+
+**About gacha**
+
+A character needs to have at least one media relation to apper in gacha.
+
+---
+
+For other questions go to [#help-and-questions](https://discord.gg/H69RVBxeYY) in our discord.
+
+If you just finished making a pack you can also share it with us in `#share-your-packs`
