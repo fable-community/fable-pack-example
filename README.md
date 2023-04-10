@@ -2,6 +2,8 @@
 
 When using a code editor like "VS Code" and adding:
 
+> VS Code is available from your browser and doesn't require download <https://vscode.dev>
+
 ```json
 "$schema": "https://fable.deno.dev/schema.json",
 ```
