@@ -78,7 +78,9 @@ If you want to add a conflict from another pack use `/character [name] debug=Tru
 
 **About character ratings**
 
-They are based on the `popularity` field, poplaurity is the numbers of followers for shows and video games you can base it on twitter followers or download counts, for characters like vtubers it can be based on twitch or youtube follower, you only need to define one poplaurity, character poplaurity override media poplaurity.
+They are based on the `popularity` field, poplaurity is the numbers of individual followers (poplaurity of 1000 means one thouusnd people).
+
+For anime, manga and video games you can use their twitter followers or download counts, for characters like youtubers it can be based on twitch and youtube follower, you only need to define one `poplaurity`, character's poplaurity override media poplaurity.
 
 **About gacha**
 
