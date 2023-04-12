@@ -1,8 +1,6 @@
 # Example
 
-When using a code editor like "VS Code" and adding:
-
-> VS Code is available from your browser and doesn't require download <https://vscode.dev>
+We recommend using a code editor like "VS Code" and adding:
 
 ```json
 "$schema": "https://fable.deno.dev/schema.json",
@@ -10,15 +8,13 @@ When using a code editor like "VS Code" and adding:
 
 You will be able to get helpful auto-completions and validation errors while writing your pack's manifest.
 
-You can also run `/packs validate fable-community/example` or  
-`/packs validate fable-community/example test-branch`
-or from your terminal run
+> **Note** VS Code is available from your browser and doesn't require download <https://vscode.dev>
+
+You can also run `/packs validate fable-community/example` or from your terminal run
+
 ```sh
 deno run -A https://raw.githubusercontent.com/ker0olos/fable/main/src/validate.ts ./manifest.json
 ```
-
-Wanna try installing this pack instead? run `/packs install fable-community/example`
-
 ---
 
 ## Quick introduction
@@ -87,6 +83,10 @@ For anime, manga and video games you can use their twitter followers or download
 **About gacha**
 
 A character needs to have at least one media relation to apper in gacha.
+
+**Manfiest is not a JSON**
+
+That means that have some errors in your file like a missing "{" or ",", Again I would like to recommend using a code editor since they can highlight those types of issues.
 
 ---
 
