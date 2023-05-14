@@ -1,5 +1,5 @@
 {
-  "$schema": "https://fable.deno.dev/schema.json",
+  "$schema": "https://raw.githubusercontent.com/ker0olos/fable/main/json/schema.json",
   "id": "example",
   "title": "Example Pack",
   "description": "An example pack to demonstrate how to create a manifest",
