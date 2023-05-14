@@ -3,7 +3,7 @@
 We recommend using a code editor like "VS Code" and adding:
 
 ```json
-"$schema": "https://fable.deno.dev/schema.json",
+"$schema": "https://raw.githubusercontent.com/ker0olos/fable/main/json/schema.json",
 ```
 
 You will be able to get helpful auto-completions and validation errors while writing your pack's manifest.
