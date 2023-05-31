@@ -11,4 +11,4 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - run: deno run -A https://raw.githubusercontent.com/ker0olos/fable/main/src/validate.ts ./manifest.json
+      - run: deno run --import-map https://raw.githubusercontent.com/ker0olos/fable/main/import_map.json -A https://raw.githubusercontent.com/ker0olos/fable/main/src/validate.ts ./manifest.json
