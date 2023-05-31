@@ -5,11 +5,3 @@
 > Thus we decided to disable community packs for the time being to avoid wasting people's time.  
 
 > **Warning** All currently installed packs were forcibly uninstalled due to ker0olos/fable#162
-
-```json
-"$schema": "https://raw.githubusercontent.com/ker0olos/fable/main/json/schema.json",
-```
-
-```sh
-deno run -A https://raw.githubusercontent.com/ker0olos/fable/main/src/validate.ts ./manifest.json
-```
